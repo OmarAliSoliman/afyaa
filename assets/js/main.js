@@ -106,6 +106,15 @@ $(document).ready(function () {
     });
   }
 
+  if($('.blog-par').length){
+    $('audio').audioPlayer({
+      classPrefix: 'audioplayer',
+      strPlay: '',
+      strPause: '',
+      strVolume: ''
+    });
+  }
+
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })

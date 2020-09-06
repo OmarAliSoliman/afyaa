@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/css/slick.css">
   <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/audioplayer.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Document</title>
 </head>
@@ -159,13 +160,17 @@
             <i class="far fa-calendar"></i>
             <span>السبت 10 مارس 2018 هـ</span>
           </p>
-          <div class="iframe-video">
-            <iframe src="https://www.youtube.com/embed/sOML64y5dfQ" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="department">
-            <span>القسم : الاخبار</span>
-            <span>مشاهدات : 1254</span>
+          <div class="iframe-picture" style="background-image: url('./assets/images/show.png');">
+            <div class="department">
+              <span>
+                <i class="far fa-comments"></i>
+                القسم : الاخبار
+              </span>
+              <span>
+                <i class="far fa-eye"></i>
+                مشاهدات : 1254
+              </span>
+            </div>
           </div>
           <div class="blog-par">
             <h5>عنوان المقال او الموضوع</h5>
@@ -177,7 +182,72 @@
               إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد
               في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من
             </p>
+            <audio preload="auto" controls>
+              <source src="./assets/audio/audio.mp3">
+            </audio>
           </div>
+
+          <div class="key-words">
+            <div class="row">
+              <div class="col-sm-12 col-lg-12">
+                <div class="k-words-link">
+                  <a href="">كلمة مفتاحية</a>
+                  <a href="">كلمة</a>
+                  <a href="">كلمة مفتاحية</a>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="links">
+                  <div class="row">
+                    <div class="col-sm-12 col-lg-5">
+                      <span class="get-link">:الحصول على رابط مختصر</span>
+                    </div>
+                    <div class="col-sm-12 col-lg-7">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" aria-label="Recipient's username"
+                          aria-describedby="basic-addon2" value="https://www.facebook.com">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2">
+                            <i class="fas fa-link"></i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="blog-share">
+                        <span>شارك المقاله</span>
+                        <ul class="list-unstyled">
+                          <li>
+                            <a href="">
+                              <span>Tweet</span>
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <span>1</span>
+                              <i class="fab fa-google-plus-g"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <span>like</span>
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <span>share</span>
+                              <i class="fab fa-linkedin-in"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="new-blogs-main">
             <div class="main-new-blog-content">
               <div class="row">
@@ -396,6 +466,7 @@
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/audioplayer.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

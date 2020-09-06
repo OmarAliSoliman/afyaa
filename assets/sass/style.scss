@@ -1424,10 +1424,188 @@ footer {
     color: #666;
     font-size: 13px;
   }
-  .iframe-video{
-    iframe{
+  .iframe-picture{
+    width: 100%;
+    height: 480px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    &::before{
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
       width: 100%;
-      height: 480px;
+      height: 100%;
+      background-image: linear-gradient(to left bottom, rgba(0,0,0,0.1), rgba(0,0,0,03));
+    }
+    .department{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -90%);
+      span{
+        color: #fff;
+        font-size: 12px;
+        margin: 10px;
+        font-family: myFont-med;
+      }
+    }
+  }
+  .blog-par{
+    margin-top: 55px;
+    h5{
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    p{
+      line-height: 28px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .audioplayer {
+      direction: ltr;
+      background-color: #444444;
+      height: 50px;
+      border: 0;
+      width: 90%;
+    }
+    .audioplayer-playpause {
+    }
+    .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
+      border: 0;
+    }
+    .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+      border-left: 12px solid #e9eaeb;
+    }
+    .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover {
+      background-color: transparent;
+      border: none !important;
+    }
+    .audioplayer-bar-played::after {
+      display: none;
+    }
+    .audioplayer-bar-played {
+      height: 13px;
+    }
+    .audioplayer-bar::before {
+      height: 13px;
+    }
+    .audioplayer-bar-loaded {
+      height: 13px;
+      background-color: #5a5a5a;
+    }
+    .audioplayer-bar {
+      height: 22px;
+    }
+    .audioplayer-time-current{
+      color: #fff;
+    }
+    .audioplayer-time-duration{
+      color: #fff;
+    }
+    .audioplayer-playing .audioplayer-playpause a::before,
+    .audioplayer-playing .audioplayer-playpause a::after {
+      background-color: #000;
+    }
+    .audioplayer-playing .audioplayer-playpause {
+      border: 0 !important;
+    }
+    .audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after {
+      left: 10px;
+      top: 0px;
+      width: 8px;
+      height: 8px;
+    }
+    .audioplayer-bar-played {
+      background: #cccccc !important;
+    }
+    .audioplayer-playing .audioplayer-bar-played::after {
+      border: 2px solid #e9eaeb;
+    }
+    .audioplayer-volume-adjust div div {
+      background-color: #cccccc;
+    }
+  }
+  .key-words {
+    margin-top: 70px;
+    border-top: 1px solid #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+    .k-words-link {
+      border-bottom: 1px solid #EEE;
+      padding-bottom: 30px;
+      a {
+        display: inline-block;
+        // height: 27px;
+        border-radius: 3px;
+        color: #707070;
+        text-decoration: none;
+        font-size: 13px;
+        transition: 0.5s;
+        border: 1px solid #e8faf6;
+        padding: 10px;
+        margin-top: 8px;
+        &:hover {
+          background-color: #988e61;
+          color: #fff;
+          border: 1px solid #988e61;
+        }
+      }
+    }
+    .links {
+      padding-top: 30px;
+      .row {
+        margin: 0;
+        .col-sm-12,
+        .col-lg-4,
+        .col-lg-8 {
+          padding: 0;
+          margin: 0;
+        }
+      }
+      .get-link {
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 9px;
+        font-weight: bold;
+      }
+    }
+    .input-group {
+      direction: ltr;
+      background-color: transparent;
+      border-radius: 3px;
+      border: 1px solid #EEE;
+      box-shadow: 0px 2px 0px #e2e2e2;
+      .form-control {
+        border-radius: 0;
+        border: 0;
+        background-color: transparent;
+        font-family: my-font-reg;
+        font-size: 13px;
+      }
+      .input-group-text {
+        border-radius: 0;
+        border: 0;
+        background-color: transparent;
+        i {
+          font-size: 10px;
+        }
+      }
+    }
+    .blog-share{
+      border: 1px solid #000;
+      ul{
+        float: left;
+        li{
+          float: left;
+          // display: inline-block;
+          margin-right: 10px;
+          border: 1px solid #DDD;
+        }
+      }
     }
   }
 }
