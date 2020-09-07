@@ -883,7 +883,7 @@ footer {
 
 // ================================================
 .archive-blogs {
-  margin: 100px;
+  margin-top: 100px;
   .main-new-blog-content {
     border: 0 !important;
     padding-bottom: 0 !important;
@@ -1416,6 +1416,7 @@ footer {
 
 // =========================================
 .blog-show{
+  margin: 0 ;
   margin-top: 50px;
   .blog-show-head{
     font-weight: bold;
@@ -1596,14 +1597,64 @@ footer {
       }
     }
     .blog-share{
-      border: 1px solid #000;
       ul{
         float: left;
         li{
           float: left;
           // display: inline-block;
           margin-right: 10px;
-          border: 1px solid #DDD;
+          background-color: #ddd;
+          border-radius: 5px;
+          text-align: center;
+          padding-right: 5px;
+          padding-left: 5px;
+          a{
+            text-decoration: none;
+          }
+          span{
+            color: $mainColor;
+            font-size: 12px;
+          }
+          i{
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+        li:first-child{
+          background-color: #e5e5e5 !important;
+          span{
+            color: #000;
+          }
+          i{
+            color: #23abef;
+          }
+        }
+        li:nth-child(2){
+          background-color: #fff !important;
+          border: 1px solid #eaeaea;
+          i{
+            color: #dd4e3b;
+          }
+        }
+        li:nth-child(3){
+          background-color: #3351ab !important;
+          border: 1px solid #3351ab;
+          span{
+            color: #fff;
+          }
+          i{
+            color: #fff;
+          }
+        }
+        li:nth-child(4){
+          background-color: #fbfbfb !important;
+          border: 1px solid #fbfbfb;
+          span{
+            color: #000;
+          }
+          i{
+            color: #3a80b9;
+          }
         }
       }
     }
@@ -1675,6 +1726,13 @@ footer {
       }
     }
   }
+  .pagination{
+    width: 100%;
+    overflow: auto;
+  }
+  .sounds-show-page .sounds-show .card .card-content{
+    width: 100%;
+  }
 }
 
 @media (max-width: 524px) {
@@ -1713,6 +1771,22 @@ footer {
       display: block;
       margin-bottom: 20px;
     }
+  }
+  .blog-show .iframe-picture .department span{
+    display: block;
+  }
+  .blog-show .key-words .blog-share ul{
+    float: none;
+  }
+  .about .content-left{
+    padding: 10px;
+  }
+  .login .login-form{
+    width: 100%;
+  }
+  .reset-password .content-left .content-par .input-group,
+  .reset-password .content-left .content-par .card{
+    width: 100%;
   }
 }
 
