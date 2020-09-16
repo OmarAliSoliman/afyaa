@@ -295,6 +295,7 @@ img {
   font-size: 20px;
   font-weight: bold;
   margin-top: 45px;
+  color: #000;
 }
 .sounds .sounds-slider .slider-item .card a {
   color: #274c5c;
@@ -824,9 +825,12 @@ footer .follow .art img {
   border: 0 !important;
   padding-bottom: 0 !important;
 }
-.archive-blogs .pagination {
+.archive-blogs .varieties-pagination {
   float: none;
+  width: 50%;
+  margin: auto;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .sounds-show-page {
@@ -1549,6 +1553,75 @@ footer .follow .art img {
   color: #3a80b9;
 }
 
+.books {
+  margin-top: 0 !important;
+}
+.books .books-cards {
+  margin-top: 60px;
+}
+.books .books-cards .card {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 36px;
+}
+.books .books-cards .card .card-img {
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  position: relative;
+}
+.books .books-cards .card .card-img .btn {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #988e61;
+  color: #fff;
+  padding: 12px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+.books .books-cards .card .card-img .btn:hover {
+  background-color: #fff;
+  color: #988e61;
+}
+.books .books-pagination {
+  float: none;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.varieties-details .iframe-picture::before {
+  content: "";
+  background-image: none;
+}
+.varieties-details .varieties-4pic {
+  margin-top: 60px;
+}
+.varieties-details .varieties-4pic .card {
+  border: 0;
+  border-radius: 0;
+}
+.varieties-details .varieties-4pic .card .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 205px;
+  margin-bottom: 40px;
+}
+.varieties-details .varities-par-2 {
+  margin-top: 0;
+}
+.varieties-details .iframe-video {
+  margin-bottom: 75px;
+}
+.varieties-details .iframe-video iframe {
+  width: 100%;
+  height: 430px;
+}
+
 @media (max-width: 800px) {
   .navbar {
     padding: 10px;
@@ -1617,6 +1690,20 @@ footer .follow {
 
   .sounds-show-page .sounds-show .card .card-content {
     width: 100%;
+  }
+
+  .books .books-pagination {
+    width: 100% !important;
+    overflow: auto;
+  }
+
+  .varieties-pagination {
+    width: 100% !important;
+    overflow: auto;
+  }
+
+  .newblogs .new-blogs-sidebar .important-choses {
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 524px) {
@@ -1700,6 +1787,23 @@ footer .follow {
   line-height: 45px;
   text-align: center;
   background-color: #303231;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.new-blogs-sidebar {
+  margin-top: 65px;
+}
+.new-blogs-sidebar .important-choses .card-title {
+  color: #000;
+  margin-bottom: 0;
+}
+
+.newblogs .new-blogs-main .btn-more-blog {
+  padding-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
