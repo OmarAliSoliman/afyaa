@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   $('.header-slider').slick({
     arrows: true,
-    rtl: true,
+    // rtl: true,
   });
 
 
@@ -19,7 +19,6 @@ $(document).ready(function () {
     $('.sounds-slider').slick({
       dots: true,
       infinite: false,
-      rtl: true,
       speed: 300,
       slidesToShow: 3,
       arrowa: true,
@@ -62,7 +61,6 @@ $(document).ready(function () {
       infinite: false,
       speed: 300,
       slidesToShow: 4,
-      rtl: true,
       arrows: true,
       slidesToScroll: 1,
       autoplay: false,
