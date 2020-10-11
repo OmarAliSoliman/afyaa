@@ -180,6 +180,7 @@ img {
   background-position: center;
   height: 500px;
   padding-top: 120px;
+  direction: rtl;
 }
 .header-slider .slider-item .header-content {
   color: #fff;
