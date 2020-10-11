@@ -1147,7 +1147,7 @@ footer {
     }
     .list-nav {
       text-align: right;
-      margin-top: 40px;
+      // margin-top: 40px;
       .nav-item {
         position: relative;
         &::before {
@@ -1174,6 +1174,12 @@ footer {
         .nav-link {
           color: #e6cb97;
         }
+      }
+    }
+    .home-nav{
+      font-size: 30px !important;
+      i{
+        color: #988e61;
       }
     }
     .login-option {
