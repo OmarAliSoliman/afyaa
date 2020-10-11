@@ -1775,6 +1775,10 @@ footer .follow {
 .reset-password .content-left .content-par .card {
     width: 100%;
   }
+
+  .sidebar .social {
+    display: none;
+  }
 }
 .header-slider .slick-arrow::before, .sounds .sounds-slider .slick-arrow::before, .versions .versions-slider .slick-arrow::before {
   font-family: "Font Awesome 5 Free";
