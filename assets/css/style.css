@@ -804,6 +804,7 @@ footer .follow .art img {
 }
 .sounds-archive-table table tbody tr td a {
   text-decoration: none;
+  color: #000;
 }
 .sounds-archive-table table tbody tr td a i {
   color: #fff;
