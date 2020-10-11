@@ -1180,6 +1180,9 @@ footer {
       font-size: 30px !important;
       i{
         color: #988e61;
+        &:hover{
+          color: #d1c8a0;
+        }
       }
     }
     .login-option {

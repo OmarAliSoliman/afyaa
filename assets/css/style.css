@@ -1102,6 +1102,9 @@ footer .follow .art img {
 .about .sidebar .home-nav i {
   color: #988e61;
 }
+.about .sidebar .home-nav i:hover {
+  color: #d1c8a0;
+}
 .about .sidebar .login-option {
   margin-top: 30px;
 }
