@@ -1820,4 +1820,22 @@ a {
   padding-bottom: 15px;
 }
 
+.sounds-varieties {
+  margin-bottom: 50px;
+}
+.sounds-varieties table .active {
+  background-color: #d1c8a0;
+  color: #fff;
+}
+.sounds-varieties table .active a {
+  color: #fff;
+}
+.sounds-varieties table tbody tr:hover {
+  background-color: #d1c8a0;
+  color: #fff;
+}
+.sounds-varieties table tbody tr:hover a {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

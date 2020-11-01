@@ -1924,3 +1924,25 @@ a{
 .newblogs .new-blogs-main .btn-more-blog{
   padding-bottom: 15px;
 }
+
+.sounds-varieties{
+  margin-bottom: 50px;
+  table{
+    .active{
+      background-color: #d1c8a0;
+      color: #fff;
+      a{
+        color: #fff;
+      }
+    }
+    tbody{
+      tr:hover{
+        background-color: #d1c8a0;
+        color: #fff;
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
