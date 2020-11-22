@@ -25,11 +25,6 @@ body {
   clear: both;
 }
 
-img {
-  max-width: 100%;
-  width: 100%;
-}
-
 .slider-item:focus {
   outline: 0;
 }
@@ -653,10 +648,9 @@ img {
   border-radius: 0;
   background-color: transparent;
 }
-.versions .card .card-img {
+.versions .card .card-img img {
   height: 411px;
-  background-position: center;
-  background-size: cover;
+  width: 100%;
 }
 .versions .more-book {
   text-align: center;
@@ -1336,11 +1330,13 @@ footer .follow .art img {
   font-size: 13px;
 }
 .blog-show .iframe-picture {
-  width: 100%;
-  height: 480px;
-  background-position: center;
-  background-size: cover;
   position: relative;
+}
+.blog-show .iframe-picture img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
 }
 .blog-show .iframe-picture::before {
   position: absolute;
