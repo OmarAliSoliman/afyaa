@@ -562,13 +562,11 @@ body {
   margin-bottom: 20px;
   border: 0;
 }
-.newblogs .new-blogs-sidebar .important-choses .important-choses-content .card .card-img {
+.newblogs .new-blogs-sidebar .important-choses .important-choses-content .card .card-img img {
   position: absolute;
   width: 70px;
   height: 75px;
   right: 0;
-  background-size: cover;
-  background-position: center;
 }
 .newblogs .new-blogs-sidebar .important-choses .important-choses-content .card h5,
 .newblogs .new-blogs-sidebar .important-choses .important-choses-content .card p,

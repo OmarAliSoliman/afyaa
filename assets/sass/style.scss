@@ -614,12 +614,18 @@ body {
           margin-bottom: 20px;
           border: 0;
           .card-img {
-            position: absolute;
-            width: 70px;
-            height: 75px;
-            right: 0;
-            background-size: cover;
-            background-position: center;
+            // position: absolute;
+            // width: 70px;
+            // height: 75px;
+            // right: 0;
+            // background-size: cover;
+            // background-position: center;
+            img{
+              position: absolute;
+              width: 70px;
+              height: 75px;
+              right: 0;
+            }
           }
           h5,
           p,
