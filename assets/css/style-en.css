@@ -1791,6 +1791,12 @@ footer .follow {
   .versions .versions-slider .slick-next{
     left: 90%;
   }
+  .sounds-show-page .sounds-show .card .card-content .audioplayer{
+    width: 100% !important;
+  }
+  .audioplayer{
+    padding: 0 !important;
+  }
 }
 .header-slider .slick-arrow::before, .sounds .sounds-slider .slick-arrow::before, .versions .versions-slider .slick-arrow::before {
   font-family: "Font Awesome 5 Free";

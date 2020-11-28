@@ -1781,6 +1781,12 @@ footer .follow {
   .sidebar .social {
     display: none;
   }
+  .sounds-show-page .sounds-show .card .card-content .audioplayer{
+    width: 100% !important;
+  }
+  .audioplayer{
+    padding: 0 !important;
+  }
 }
 .header-slider .slick-arrow::before, .sounds .sounds-slider .slick-arrow::before, .versions .versions-slider .slick-arrow::before {
   font-family: "Font Awesome 5 Free";
@@ -1833,3 +1839,18 @@ a {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.sounds-show .card audio{
+  width: 90%;
+  margin-top: 20px;
+}
+
+.sounds-show .card audio:focus{
+  outline: 0;
+}
+
+@media(max-width: 524px){
+  .sounds-show .card audio{
+    width: 100%;
+  }
+}

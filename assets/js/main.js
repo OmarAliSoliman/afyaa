@@ -95,14 +95,14 @@ $(document).ready(function () {
 
 
 
-  if($('.sounds-show').length){
-    $('audio').audioPlayer({
-      classPrefix: 'audioplayer',
-      strPlay: '',
-      strPause: '',
-      strVolume: ''
-    });
-  }
+  // if($('.sounds-show').length){
+  //   $('audio').audioPlayer({
+  //     classPrefix: 'audioplayer',
+  //     strPlay: '',
+  //     strPause: '',
+  //     strVolume: ''
+  //   });
+  // }
 
   if($('.blog-par').length){
     $('audio').audioPlayer({
